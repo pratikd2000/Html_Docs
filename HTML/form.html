@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <center>
+        <h4>User Registration Form</h4>
+        <form>
+            <table bgcolor="pink" width="30%">
+                <tr>
+                    <td> <label>Enter Your FullName:</label></td>
+                    <td>
+                        <input type="text" name="fname" placeholder="enter your fullname" minlength="3" maxlength="15"
+                            pattern="[a-zA-Z ]{3,15}" autofocus required>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Enter Your Password:</label></td>
+                    <td><input type="password" name="password" placeholder="enter your password" required> </td>
+                </tr>
+                <tr>
+                    <td><label>Enter Your Email:</label> </td>
+                    <td><input type="email" name="email" placeholder="enter your email id" required> </td>
+                </tr>
+                <tr>
+                    <td> <label>Enter Contact Number:</label></td>
+                    <td><input type="tel" name="contact" placeholder="enter your contactnumner" required></td>
+                </tr>
+                <tr>
+                    <td><label>Enter Your DOB:</label></td>
+                    <td><input type="datetime-local" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label>Select Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male" checked required>Male
+                        <input type="radio" name="gender" value="female" required>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Select Qualification:</label></td>
+                    <td>
+                        <input type="checkbox" name="edu" value="ssc">SSC
+                        <input type="checkbox" name="edu" value="hsc">HSC
+                        <input type="checkbox" name="edu" value="ug">UG
+                        <input type="checkbox" name="edu" value="pg">PG
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select Courses:</label></td>
+                    <td>
+                        <select name="course" required>
+                            <option value="">select your course</option>
+                            <optgroup label="Fullstack">
+                                <option value="React">React</option>
+                                <option value="angular">Angular</option>
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                            </optgroup>
+                            <optgroup label="MEAN stack Developer">
+                                <option value="React">React</option>
+                                <option value="angular">Angular</option>
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="comment" placeholder="comment here.." cols="50" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend>Bank Detail</legend>
+                            <label>Account Numbner:</label>
+                            <input type="text"> <br>
+                            <label>IFSC Code:</label>
+                            <input type="text">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Course fees:</label></td>
+                    <td>
+                        <input type="text" name="fees" value="10000" disabled readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course Duration:</td>
+                    <td><input type="number" min="0" max="12" name="duration"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Sumbit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+
+
+
+
+</body>
+
+</html>

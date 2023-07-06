@@ -1,0 +1,162 @@
+15/9/22
+*What is html 
+-it is use to create structure of  webpage or website
+-it is use to display data to user on browser
+-latest version of html is html5 
+
+*html is tag basis language 
+*in html we have two types of tag 
+1.paired tag : tag comes with start and end tag
+   ex: <startTag></endTag> 
+2.unpaired tag: it will be single tag 
+   ex: <singleTag>
+
+*attribute 
+-it gives you additional information about tag 
+-it always start tag 
+-it comes name and value paire 
+
+*In html we have two type of element
+
+1.Block element: -it always start on new line
+                 -it takes fullwidth of its screen.
+                 -ex: h1-h6,div,p,list
+2.Inline element:- the element which never start on new line 
+                 - it takes specific width of it.
+                 -ex: b,i,img,a,
+
+Q.What is differance between html and html5. 
+Q.what are features of html5.
+Q.what are API introduces in html5 
+
+1-symantic element get introduces:
+2-new tag ,new attribute and new input type introduces:
+3-multimedia element get introduces:
+4-In html5 API(Application Programing Interface) introduces:
+    1.Geolocation:
+    2.Drag and Droup:
+    3.Web-Worker:
+    4.Web-storage:
+    5.SSE(Server sent Event):
+
+
+
+Abhishek,Rutuja,Pratik,Aarati.
+===========================================================================================
+16/9/22
+
+
+
+1-symantic element get introduces:the element with specific meaning is called symantic element
+                                  ex: header,footer,aside,nav,section
+2-new tag ,new attribute and new input type introduces: 
+                                   ex: strong, em,ins, address, abbr these are example of new tag                                  
+3-multimedia element get introduces: we can insert video and audio file in webapge 
+
+4.HTML API(Application Programing Interface)
+    1.Geolocation:it return user current position.
+    2.Drag and Droup:grab an object from one lcation and paste it into another.
+    3.Web-Worker:it is small javascript which excute at backenf of webpage withpout its current execution
+    4.Web-storage:it is use to store user data on browser. 
+         1.Local Storage:it is use to store user for permamantly on browser.
+         2.session Storage: it is use to store user data for limited time period.
+    5.SSE(Server sent Event): it allows us to get automatic update from server. 
+
+*Types of List in Html 
+1.Ordered List: (numeric 1,2,3, A,B,C,a,b,c,I,II,III,i,ii,iii)
+2.Unordered List: (disc,circle,square,none)
+3.Description List:  dl,dt,dd 
+
+*how to insert images using relative path 
+*How to insert Video 
+*how to insert Audio 
+*how to insert google map location in webpage 
+
+Task: insert five company google map Location. 
+
+
+*how to create create link 
+*anchore
+Aarati,Abhishek,Pratik,Rutuja 
+======================================================================
+17/9/2022
+*how to insert youtube video 
+*how to insert our webpages in iframe tag 
+*comment in html 
+ <!-- any text -->
+*how to insert special symbol
+*details
+*summery 
+
+*Table : it is collection of rows columns 
+*Table with rowspan 
+*Table with colspan 
+*Table with colspan and rowspan 
+
+Aarati,Abhishek,Pratik,Rutuja,Tejas
+==============================================================================================
+22/9/22
+
+*form: it is use to get data from User.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
